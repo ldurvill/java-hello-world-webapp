@@ -3,7 +3,7 @@ package webapp;
 public class MessageBuilder {
 
     public static String getHelloWorld(){
-        return "bonjour le monde";
+        return "hello world";
     }
 
     public static int getNumber10(){
