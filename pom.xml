@@ -11,11 +11,26 @@
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
-      <version>3.8.1</version>
+      <version>4.11</version>
       <scope>test</scope>
     </dependency>
   </dependencies>
   <build>
     <finalName>java-hello-world</finalName>
+    <plugins>
+                <plugin>
+                    <artifactId>maven-war-plugin</artifactId>
+                    <version>2.1.1</version>
+                    <configuration>
+                        <outputDirectory>webapps</outputDirectory>
+                        <warName>java-hello-world</warName>
+                        <webXml>src/main/java/webapp/WEB-INF/web.xml</webXml>
+                  </configuration>
+            </plugin>
+        </plugins>
   </build>
+  <properties>
+    <maven.compiler.source>1.6</maven.compiler.source>
+    <maven.compiler.target>1.6</maven.compiler.target>
+  </properties>  
 </project>
