@@ -1,7 +1,7 @@
 <html>
 <body>
   <h2>Hello Leandre Durville ?</h2>
-<h3>Welcome to Cloud With Leandre Durville| Microsoft Certified Security Engineer, Azure & AWS Solution Architect </h3>
+<h3>Welcome to Cloud With Leandre Durville|  </h3>
   
 <marquee>Welcome to Cloud With Leandre Durville</marquee>
 
